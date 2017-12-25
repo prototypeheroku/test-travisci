@@ -1,4 +1,4 @@
 language: php
 cache: bundler
 script:
-  - phpunit --coverage-clover build/logs/clover.xml
+  - ./vender/bin/phpunit --coverage-clover clover.xml
