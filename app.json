@@ -1,5 +1,12 @@
 {
   "name": "Laravel Sample1",
   "description": "Laravel for Project",
-  "buildpacks": [{"url":"https://github.com/heroku/heroku-buildpack-php.git"}]
+  "buildpacks": [{"url":"https://github.com/heroku/heroku-buildpack-php.git"}],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "phpunit"
+      }
+    }
+  }
 }
