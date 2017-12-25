@@ -1,2 +1,4 @@
 language: php
 cache: bundler
+script:
+  - phpunit --coverage-clover build/logs/clover.xml
