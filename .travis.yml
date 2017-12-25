@@ -1,0 +1,4 @@
+language: php
+cache: bundler
+script:
+  - ./vender/bin/phpunit --coverage-clover clover.xml
